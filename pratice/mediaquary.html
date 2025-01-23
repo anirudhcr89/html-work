@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            gap: 10px;
+        }
+
+        @media screen and (orientation:landscape) {
+            .main{
+                flex-direction: column;
+            }
+        }    
+            /* ul{
+            display: none;
+
+            } /
+        }
+        / @media screen and (max-width:540px) {
+            ul{
+                flex-direction: column;
+                display: block;
+            }
+        } */
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <h1>heading</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgba(67, 179, 204, 0.675);
+        }
+
+        .main {
+            display: flex;
+            height: 500px;
+            justify-content: center;
+            margin-top: 80px;
+        }
+
+        .lt {
+            background-color: rgb(252, 248, 248);
+            width: 450px;
+        }
+
+        .rt {
+            background-color: rgba(111, 0, 255, 0.584);
+            width: 450px;
+        }
+
+        select {
+            width: 344px;
+        }
+
+        .non {
+            width: 169px;
+            height: 22px;
+        }
+
+        .lt h2 {
+            color: rgb(0, 200, 255);
+            margin: 40px;
+        }
+        .long{
+            background-color: ;
+            width: 344px;
+            border-left: hidden;
+            border-right: hidden;
+            border-top: hidden;
+            border-bottom: 100px;
+        }
+        .white-form{
+            margin-left: 40px;
+            margin-right: 20px;
+        }
+        .blue-form{
+            margin-left: 40px;
+            margin-right: 20px;
+        }
+        .white-form input{
+            border-top:hidden;
+            border-left: hidden;
+            border-right: hidden;
+        }
+        .white-form select {
+            border-top: hidden;
+            border-left: hidden;
+            border-right: hidden;            
+        }
+        .head h2{
+            margin-left: 40px;
+        }
+        button{
+            border-radius: 30px;
+            width: 130px;
+            height: 35px;
+            border: hidden;
+        }
+        .blue-form input,select{
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid white;
+        }
+        .blue-form input::placeholder{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="lt">
+            <h2>General Information</h2>
+            <div class="white-form">
+                <form>
+                    <select name="Title" id="title">
+                        <option value="" disabled selected>Title</option>
+                    </select><br><br><br>
+                    <input type="text" placeholder="Frist Name"> <input type="text" placeholder="Last Name"><br><br><br>
+                    <select name="position" id="position">
+                        <option value="" disabled selected>Position</option>
+                    </select><br><br><br>
+                    <input type="text" placeholder="Business Arena"> <select class="non" name="" id="">
+                        <option value="" disabled selected>Employess</option>
+                    </select><br><br>
+
+
+                </form>
+            </div>
+        </div>
+        <div class="rt">
+            <div class="head">
+                <h2>Contact Details</h2>
+                <div class="blue-form">
+                    <form>
+                        <input class="long" type="text" placeholder=" Street +Nr"><br><br><br>
+                        <input class="long" type="text" placeholder=" Additional information"><br><br><br>
+                        <input type="text" placeholder=" Zip Code"><select class="non" name="" id="">
+                            <option value="" disabled selected>Place</option>
+                        </select><br><br><br>
+                        <input class="long" type="text" placeholder="Country"><br><br><br>
+                        <input type="text" placeholder="Code">
+                        <input type="text" placeholder="Phone number"><br><br><br>
+                        <input class="long" type="text" placeholder="Your Email"><br><br>
+                        <input type="checkbox">
+                        <label for="text">i do accept the <u>Terms and condition</u> of ypur site.</label><br><br>
+                        <button type="submit"><b> Register Badge</b></button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

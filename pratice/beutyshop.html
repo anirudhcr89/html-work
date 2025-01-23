@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .navbar{
+            background-color: aquamarine;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1%;
+        }
+        .navbar2 ul{
+            display: flex;
+            gap: 20px;
+            list-style-type: none;
+
+        }
+        .navbar2{
+            background-color: brown;
+        }
+        .navbar2 ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .barbie {
+        
+            /* text-align: center; */
+            padding: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .barbie h1{
+            display: flex;
+            text-align: left;
+
+        }
+        .pic{
+            margin-top: 30px;
+        }
+        .pic img{
+           
+           padding: 40PX;
+        }
+
+        .box{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 30px;
+        }
+        .box div{
+            width: 30%;
+            text-align: center;
+            box-shadow: 1px 1px 5px 1px  black;
+            border-radius: 10px;
+        }
+        .main {
+            display: flex;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div>
+            <h1>Landing Page</h1>
+        </div>
+        <div class="navbar2">
+            <ul >
+               <li><a href="">Home</a></li> 
+               <li><a href="">About</a></li>
+               <li><a href="">Sing up</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="barbie">
+        <div class="ex">
+            <h1 style="color: green;">Discover The world of Barbie </h1>
+            <button>Explore</button>
+        </div>
+        <div class="pic">
+            <img src="barbie.jpeg" alt="">
+        </div>
+
+    </div>
+    <h2 style="text-align: center;margin-bottom: 20px;">Barbie</h2>
+    <div class="box">
+        <div>
+            <h2>DSA</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati odit vero consectetur impedit fugiat officia perspiciatis autem nulla incidunt nihil, porro saepe voluptates explicabo quae cupiditate rem hic, modi excepturi?</p>
+        </div>
+        <div>
+            <h2>HTML</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsa, esse id beatae sit tempora quia quaerat! Soluta explicabo adipisci obcaecati temporibus eum inventore consequuntur distinctio facere dignissimos. Assumenda, corporis.</p>
+        </div>
+        <div>
+            <h2>JavaScript</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore magnam nobis excepturi esse accusamus alias nemo modi dignissimos dolores. Veritatis sint quia doloremque. Pariatur eveniet animi provident numquam velit fugit?</p>
+        </div>
+    </div>
+    <h2 style="text-align: center;margin-top: 20px;">Sing up</h2>
+    <div>
+        <div class="main">
+            <form action="">
+                <div class="detail">
+                    <label for="text">Name</label><br>
+                    <input type="text" placeholder="Enter the name"><br>
+                    <label for="text">Email</label><br>
+                    <input type="text" placeholder="Enter the email"><br>
+                    <label for="text">Password</label><br>
+                    <input type="text" placeholder="enter the password"><br><br>
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

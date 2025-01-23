@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBS</title>
+    <style>
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        .nav ul{
+            display: flex;
+            list-style-type: none;
+            gap: 20px;
+            padding-left: 250px;
+        }
+        .nav-icon{
+            display: flex;
+            gap: 30px;
+            padding-right: 100px;
+        }
+        .first-page{
+            display: flex;
+            gap: 260px;
+            margin-top: 10px;
+        }
+        .top-icon{
+            margin-top: 120px;
+            margin-left: 120px;
+        }
+        .sec{
+            text-align: center;
+            margin-top: 90px;
+        }
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 80px;
+
+        }
+        .con{
+            width: 390px;
+            height: 445px;
+            background-color: #f0390f;
+            display: flex;
+            border-radius: 30px;
+
+        }
+        .detail{
+            text-align: center;
+            margin-top: 50px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .con:nth-child(even){
+            background-color: #3e0bce;
+        }
+        .Read {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 40px;
+        }
+        .bg-blue img{
+            height: 660px;
+             position: relative;
+        }
+        .bg-blue{
+            background-image: url(about_bg.jpg);
+            background-attachment: fixed;
+        }
+        .text{
+            display: flex;
+            /* position: absolute; */
+            left: 0px;
+            top: 0px;
+
+        }
+        .blue-re{
+            position: relative;
+        }
+        .main-box{
+            position: absolute;
+            top: 0px;
+        }
+        .video{
+            display: flex;
+            gap: 100px;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+        .shop-page{
+            display: flex;
+            text-align: left;
+            margin-left: 40px;
+        }
+        .shop-de{
+            margin-top: 280px;
+            margin-left: 40px;
+        }
+        .testi{
+            background-color: blue;
+            padding: 90px;
+        }
+        .title{
+            text-align: center;
+            color: white;
+            font-size: 40px
+        }
+        .profile{
+            display: flex;
+            gap: 20px;
+        }
+        .red{
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+        .white{
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 40px;            
+        }
+        .pro{
+            background-color: white;
+            border-radius: 50%;
+        }
+        .location{
+            display: flex;
+            margin-left: 20px;
+            gap: 8px;
+            align-items: center;
+        }
+        .call{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin-left: 20px;
+        }
+        .info{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 200px;
+            padding-top: 90px;
+        }
+        .input input{
+        
+            gap: 10px;
+            border: hidden;
+        }
+        .input{
+            display: flex;
+            text-align: left;
+        }
+        .button{
+            background-color: #f0390f;
+            color: white;
+            font-size: 17px;
+            padding: 30px;
+            max-width: 100%;
+            border-radius: 30px;
+        }
+        .use{
+            display: flex;
+            list-style-type: none;
+            gap: 20px;
+        }
+        footer{
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div>
+            <img src="logo.png" alt="">
+        </div>
+        <div class="nav">
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>SKATING</li>
+                <li>SHOP</li>
+                <li>CONTACT AS</li>
+            </ul>
+        </div>
+        <div class="nav-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg>
+        </div>
+
+    </nav>
+    <div class="first-page">
+        <div class="top-icon">
+            <img src="top_icon.png" alt="">
+            <h2 style="font-size: 70px;">Skating <br> Board <br> School</h2>
+            <h3>Read more</h3>
+        </div>
+        <div>
+            <img src="banner_img.png" alt="" width="900px" height="700px">
+        </div>
+    </div>
+    <div class="second-class">
+        <div class="sec">
+            <h2 style="font-size: 45px;">Our Skating Class</h2>
+            <p>There are many variations of passages of Lorem</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="con">
+            <div class="detail">
+                <img src="class1.png" alt="">
+                <h2>Skateboard</h2>
+                <p>There are many variations of passages of <br>Lorem Ipsum available,<br> but the majority have suffered <br>alterationThere are many variations</p>   
+            </div>
+        </div>
+        <div class="con">
+            <div class="detail">
+                <img src="class2.png" alt="">
+                <h2>Skateboard</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variations</p>
+            </div>
+        </div>
+        <div class="con">
+            <div class="detail">
+                <img src="class3.png" alt="">
+                <h2>Skateboard</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variations</p>
+            </div>
+        </div>
+    </div>
+    <div class="Read">
+        <div>
+            <h2>Read more</h2>
+        </div>
+        <div>
+            <h2>Read more</h2>
+        </div>
+        <div>
+            <h2>Read more</h2>
+        </div>
+    </div>
+    <div class="blue-re">
+        <div class="bg-blue">
+            <!-- <img src="about_bg.jpg" alt=""> -->
+            <div class="text">
+                    <h2>About <br>Skating <br>school</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variatioThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variationsns</p>  
+                    <img src="about.png" alt="">
+            </div>       
+        </div>
+    </div>
+    <div>
+        <div class="detail">
+            <h2 style="font-size: 45px;" > Skating Video</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+        </div>
+    </div>
+    <div class="video">
+        <div>
+            <img src="sakt1.png" alt="">
+        </div>
+        <div>
+            <img src="sakt2.png" alt="">
+        </div>
+        <div>
+            <img src="sakt3.png" alt="">
+        </div>
+    </div>
+    <div class="Read">
+        <div>
+            <h2>SEE MORE</h2>
+        </div>
+        <div>
+            <h2>SEE MORE</h2>
+        </div>
+        <div>
+            <h2>SEE MORE</h2>
+        </div>
+    </div> 
+    <div class="shop-page" >
+        <div>
+            <img src="shop.png" alt="" width="731" height="823">
+        </div>
+        <div class="shop-de">
+            <h2 style="font-size: 47px;" >Our Skating <br> Shop</h2>
+            <p style="font-size: 20px;">There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered alterationThere are  <br>many variatioThere are many variations ofbr
+                 passages of Lorem Ipsum available, but the majority have suffered <br> alterationThere are many variationsns</p>
+        </div>
+    </div> 
+    <div class="testi">
+        <div class="title">
+            <h2>Testimonial</h2>
+        </div>
+        <div class="profile">
+            <div class="red" style="background-color: #f0390f;">
+                <div class="pro"><img src="test1.png" alt=""></div>
+                <h2>Jone Lo</h2>
+                <h1>"</h1>
+                <p>humour, or randomised words which don't look even slightly believable. If you are</p>
+            </div>
+            <div class="white" style="background-color: white;">
+                <div class="pro"><img src="test2.png" alt=""></div>
+                <h2>Anii cr</h2>
+                <h1>"</h1>
+                <p>humour, or randomised words which don't look even slightly believable. If you are</p>
+            </div>
+            <div class="red" style="background-color: #f0390f;">
+                <div class="pro"><img src="test3.png" alt=""></div>
+                <h2>Abi</h2>
+                <h1>"</h1>
+                <p>humour, or randomised words which don't look even slightly believable. If you are</p>
+            </div>
+        </div>
+    </div> 
+    <div>
+        <div class="info">
+            <div>
+                <h2 style="font-size: 40px;">Contact As</h2>
+                <div class="location">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                    </svg>
+                    </div>
+                    <div>
+                        <h4>Location</h4>
+                    </div>
+                </div>
+                <div class="call">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                    </svg>
+                    </div>
+                    <div>
+                        <h4>04142-211542</h4>
+                    </div>
+                </div>
+                <div class="call">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                    </svg>
+                    </div>
+                    <div>
+                        <h4>ani@gmaill.com</h4>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2>Newsletter</h2>
+                <form class="input">
+                    <div><input type="text" placeholder="enter your email"></div><br>
+                    <div><input type="text" placeholder="enter your email"></div>
+                    <button class="button">SUBSCRIBE</button>
+                </form>
+                <h2>Useful link</h2>
+                <ul class="use">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skate</li>
+                    <li>Shop</li>
+                    <li>Contact As</li>
+                </ul>
+            </div>    
+        </div>
+    </div>
+    <footer style="background-color: #f0390f;height: 60px;">@2024 reserved free html</footer>
+</body>
+</html>

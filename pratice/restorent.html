@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:linear-gradient(to right, rgba(29, 42, 66, 0.9), rgba(44, 37, 81, 0.785)),url(bg-hero.jpg);
+            background-size: 100%;
+      
+        }
+        nav{
+            display: flex;
+            color: white;
+            align-items: center;
+            gap: 40%;
+        }
+        nav ul,a{
+            display: flex;
+            list-style-type: none;
+            gap: 20px;
+            text-decoration: none;
+            color: white;
+            align-items: center;
+            
+        }
+        .about{
+            color: white;
+            margin-left: 50px;
+        }
+        .about h1,p,button{
+            transform: translate(-160%);
+            animation-name: abouts;
+            position: relative;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes abouts {
+            form{transform: translate(-160%);}
+            to{transform: translate(0%);}
+        }
+
+        .main{
+            display: flex;
+            align-items: center;
+        }
+        .hero img{
+            width: 660px;
+            height: 612pz;
+            animation-name: example;
+            animation-iteration-count: infinite;
+            animation-duration: 10s;
+            position: relative;
+            animation-timing-function: linear;
+        }
+        @keyframes example{
+            0%{rotate: 0deg;}
+            100%{rotate: 360deg;}
+        }
+        .hero{
+            margin-left: 70px;
+            
+        }
+        .about button{
+            background-color:rgba(113, 113, 30) ;
+            height: 50px;
+            width: 200px;
+        }
+        .tablee{
+            background-color: orangered;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            /* margin-top: 1px; */
+        }
+        .home{
+            color: orangered;
+        }
+        .nav ul,a{
+            transition: color 2s;
+        }        
+        .nav ul,a:hover:not(.tablee){
+            color: orangered;
+            transform: translate(0%);
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+    <nav>
+        <div>
+            <h2 style="color: rgb(113, 113, 30);font-size: 50px;">Restorent</h2>
+        </div>
+         <div>
+            <ul>
+                <li class="home"><a href="" style="color: orangered;">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICE</a></li>
+                <li><a href="">MENU</a></li>
+                <li><a href="">CONTACT AS</a></li>
+                <li><a href="" class="tablee">BOOK A TABLE</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    <div class="main">
+        <div class="about">
+            <h1 style="font-size: 50px;">Enjoy Our <br>Delicious Meal</h1>
+            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et <br> eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+            <button type="submit">BOOK A TABLE</button>
+        </div>
+        <div class="hero">
+            <img src="hero.png" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>
