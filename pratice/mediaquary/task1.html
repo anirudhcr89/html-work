@@ -1,0 +1,80 @@
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+.header {
+  text-align: center;
+  padding: 32px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+    <div class="header">
+    <h1>Responsive Image Grid</h1>
+    <p>Resize the browser window to see the responsive effect.</p>
+    </div>
+    <div class="row"> 
+    <div class="column">
+        <img src="mq1.jpg" style="width:100%">
+        <img src="mq2.jpg" style="width:100%">
+        <img src="mq3.jpg" style="width:100%">
+        <img src="mq4.jpg" style="width:100%">
+        <img src="mq5.webp" style="width:100%">
+        <img src="mq6.jpeg" style="width:100%">
+        <img src="mq7" style="width:100%">
+    </div>
+    
+    <div class="column">
+        <img src="mq8.jpeg" style="width:100%">
+        <img src="mq9.jpeg" style="width:100%">
+        <img src="mq10.jpeg" style="width:100%">
+        <img src="mq11.jpeg" style="width:100%">
+        <img src="mq12.jpeg" style="width:100%">
+        <img src="mq13.jpeg" style="width:100%">
+    </div> 
+    
+    <div class="column">
+        <img src="mq14.jpeg" style="width:100%">
+        <img src="mq15.webp" style="width:100%">
+        <img src="mq16.jpeg" style="width:100%">
+        <img src="mq1.jpg" style="width:100%;">
+        <img src="mq3.jpg" style="width:100%">
+        <img src="mq4.jpg" style="width:100%">    
+    </div>
+    
+    </div>
+
+</body>
+</html>
